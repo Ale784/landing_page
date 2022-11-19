@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    background-color: #1F2937;
+    padding-left: 206px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-right: 116px;
+}
+
+h1.logo-header{
+    color: white;
+}
+
+a:active, a:link, a:visited{
+   text-decoration: none;
+}
+
+a.link-header{
+    color: white;
+    font-weight: bold;
+}
+
+header{
+    height: 534px;
+    background-color: #1F2937;
+    padding-left: 206px;
+    display: flex;
+    align-items: center;
+    padding-right: 116px;
+}
+
+.container-banner{
+    align-items: center;
+    display: flex;
+}
+
+h2{
+    color: white;
+    text-align: left;
+    font-size: 60px;
+}
+
+.text-header{
+    color: white;
+    font-weight: bold;
+}
+
+.banner-image{
+    width: 500px;
+}
+
+
+
+
+/* Random information */ 
+.box{
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.little{
+    border-radius: 10px;
+    height: 160px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.second-subtitle{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.second{
+    background-image: url(/assets/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+.second > h1{
+    text-align: center;
+    background-color: lightpink;
+
+}
+
+.img1{
+    background-image: url(/assets/img/anime-image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img2{
+    background-image: url(/assets/img/anime-image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img3{
+    background-image: url(/assets/img/likhomanov.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img4{
+    background-image: url(/assets/img/quyn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-card > p{
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+.third{
+    height: 355px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sing-up{
+    width: 1024px;
+    height: 147px;
+    background-color: #3B82F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px 0px 70px;
+}
+
+.left-text > h2{
+    font-size: 40px;
+}
+
+.left-text > p{
+    color: white;
+} 
+
+.sing-up > a{
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.sing-up > a:hover{
+    background-color: green;
+    font-weight: bold;
+    border: 1px solid green;
+}
+
+footer{
+    height: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+span{
+    color: white;
+}
+
+video {
+    position: fixed;
+    right: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+  }
+
